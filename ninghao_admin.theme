@@ -5,6 +5,27 @@
  * Functions to support theming in the ninghao_admin theme.
  */
 
+ /**
+  * Implements hook_preprocess_HOOK() for menu-local-action templates.
+  */
+ function ninghao_admin_preprocess_menu_local_action(array &$variables) {
+   if (isset($variables['link']['#options']['attributes']['class'])) {
+     $classAttr = &$variables['link']['#options']['attributes']['class'];
+     $classAttrRemovedItems = array(
+       'button-action',
+       'button--primary',
+       'button--small'
+     );
+
+     foreach ($classAttr as $key => $value) {
+       if (in_array($value, $classAttrRemovedItems)) {
+         unset($classAttr[$key]);
+       }
+     }
+   }
+   dpm($variables);
+ }
+
 /**
  * Implements hook_preprocess_HOOK() for html.html.twig.
  */
