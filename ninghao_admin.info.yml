@@ -6,6 +6,10 @@ core: 8.x
 libraries:
   - ninghao_admin/global-styling
 
+libraries-extend:
+  system/base:
+    - ninghao_ui/ui.draggable
+
 libraries-override:
   core/normalize:
     css:
