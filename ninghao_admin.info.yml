@@ -7,8 +7,14 @@ libraries:
   - ninghao_admin/global-styling
 
 libraries-override:
+  core/normalize:
+    css:
+      base:
+        assets/vendor/normalize-css/normalize.css: false
   seven/global-styling:
     css:
+      base:
+        css/base/elements.css: false
       component:
         css/components/buttons.css: false
   classy/base:
