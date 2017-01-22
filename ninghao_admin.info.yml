@@ -21,6 +21,7 @@ libraries-override:
         css/base/elements.css: false
       component:
         css/components/buttons.css: false
+        css/components/tables.css: false
   classy/base:
     css:
       component:
