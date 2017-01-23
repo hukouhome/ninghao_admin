@@ -7,10 +7,15 @@ libraries:
   - ninghao_admin/global-styling
 
 libraries-extend:
+  core/drupal.autocomplete:
+    - ninghao_ui/ui.drupal.autocomplete
   system/base:
     - ninghao_ui/ui.draggable
 
 libraries-override:
+  core/drupal.autocomplete:
+    js:
+      misc/autocomplete.js: false
   core/normalize:
     css:
       base:
