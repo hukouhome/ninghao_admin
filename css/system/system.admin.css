@@ -1,0 +1,39 @@
+.system-themes-list-uninstalled .screenshot,
+.system-themes-list-uninstalled .no-screenshot {
+  max-width: 100%;
+}
+.system-themes-list__header {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.card .operations {
+  margin: 0;
+  padding: 0;
+}
+.card .operations li {
+  float: left; /* LTR */
+  margin: 0;
+  padding: 0 0.7em;
+  list-style-type: none;
+  border-right: 1px solid #cdcdcd;  /* LTR */
+}
+[dir="rtl"] .card .operations li {
+  float: right;
+  border-left: 1px solid #cdcdcd;
+  border-right: none;
+}
+.card li:last-child {
+  padding: 0 0 0 0.7em; /* LTR */
+  border-right: none; /* LTR */
+}
+[dir="rtl"] .card .operations li:last-child {
+  padding: 0 0.7em 0 0;
+  border-left: none;
+}
+.theme-selector .card li:first-child {
+  padding: 0 0.7em 0 0; /* LTR */
+}
+[dir="rtl"] .theme-selector .card li:first-child {
+  padding: 0 0 0 0.7em;
+}

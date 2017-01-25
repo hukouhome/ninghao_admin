@@ -46,10 +46,8 @@
         {%
           set theme_classes = [
             'card',
-            theme.is_default ? 'theme-default',
-            theme.is_admin ? 'theme-admin',
-            'theme-selector',
-            'clearfix',
+            theme.is_default ? 'blue theme-default',
+            theme.is_admin ? 'red theme-admin',
           ]
         %}
         <div{{ theme.attributes.addClass(theme_classes) }}>
