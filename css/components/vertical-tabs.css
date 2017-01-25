@@ -18,7 +18,7 @@
 .ninghao .vertical-tabs {
   border-radius: 0;
   border: 1px solid rgba(34,36,38,.1);
-  background: #f2f2f0;
+  background: #F9FAFB;
 }
 .ninghao .vertical-tabs__panes {
   border: none;
@@ -37,4 +37,18 @@
 .ninghao .is-collapse-enabled .tabs:before,
 .ninghao .is-horizontal .tabs:before {
   display: none;
+}
+.ninghao [data-vertical-tabs-panes] {
+  background: #fff;
+}
+.ninghao .vertical-tabs__menu-item.is-selected a,
+.ninghao .vertical-tabs__menu-item a:hover,
+.ninghao .vertical-tabs__menu-item a:focus {
+  background: #fff;
+}
+.ninghao .vertical-tabs__menu-item.is-selected a {
+  padding-left: 15px;
+}
+.ninghao .vertical-tabs__menu-item a {
+  background: #F9FAFB;
 }
