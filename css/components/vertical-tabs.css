@@ -1,0 +1,40 @@
+/**
+ * seven/css/components/vertical-tabs.css
+ */
+.ninghao .tabs__tab a {
+  color: rgba(0, 0, 0, .85);
+}
+.ninghao .tabs__tab a:focus {
+  color: #000;
+  text-decoration: none;
+}
+.ninghao .is-horizontal .tabs.secondary .tabs__tab:hover,
+.ninghao .is-horizontal .tabs.secondary .tabs__tab:focus {
+  color: #000;
+}
+.ninghao .tabs.secondary .is-active a {
+  color: #000;
+}
+.ninghao .vertical-tabs {
+  border-radius: 0;
+  border: 1px solid rgba(34,36,38,.1);
+  background: #f2f2f0;
+}
+.ninghao .vertical-tabs__panes {
+  border: none;
+}
+.ninghao .vertical-tabs__menu {
+  border-bottom: none;
+}
+.ninghao .vertical-tabs__menu-item a {
+  border: 0 none;
+}
+.ninghao .vertical-tabs__menu-item.is-selected {
+  border: 0 none;
+  box-shadow: none;
+  background: #fff;
+}
+.ninghao .is-collapse-enabled .tabs:before,
+.ninghao .is-horizontal .tabs:before {
+  display: none;
+}

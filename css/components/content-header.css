@@ -1,0 +1,11 @@
+/**
+ * seven/css/components/content-header.css
+ */
+.content-header {
+  background-color: #F9FAFB;
+  /*background: none;*/
+}
+.content-header .page-title {
+  margin-bottom: 24px;
+  font-family: 'PingFangSC-light';
+}

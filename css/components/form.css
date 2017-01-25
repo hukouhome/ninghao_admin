@@ -1,0 +1,25 @@
+/**
+ * form
+ */
+ul.tips, div.description, .form-item .description {
+ color: rgba(0, 0, 0, .55);
+}
+details.form-wrapper {
+  border-color: rgba(34,36,38,.1);
+}
+textarea.form-textarea {
+  box-shadow: none;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0.67861429em 1em;
+}
+textarea.form-textarea:focus {
+  border-color: #85B7D9;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: none;
+}
+.field--name-title .ui.input {
+  width: 100%;
+}

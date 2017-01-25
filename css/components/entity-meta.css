@@ -1,0 +1,25 @@
+/**
+ * seven/css/components/entity-meta.css
+ */
+.entity-meta {
+  box-shadow: none;
+  /*border-left: 1px solid rgba(34, 36, 38, 0.15);
+  border-right: 1px solid rgba(34, 36, 38, 0.15);*/
+  border-left: none;
+  border-right: none;
+}
+.entity-meta__header, .entity-meta details {
+  border-top: none;
+  border-left: 1px solid rgba(34,36,38,.1);
+  border-right: 1px solid rgba(34,36,38,.1);
+}
+.entity-meta__header {
+  border-bottom: none;
+  border-top: 1px solid rgba(34,36,38,.1);
+}
+.entity-meta details[open] {
+  background-image: none;
+}
+.entity-meta__header, .entity-meta details {
+  background-color: #F9FAFB;
+}

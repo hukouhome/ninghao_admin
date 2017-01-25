@@ -1,0 +1,38 @@
+/**
+ * themes/stable/css/views_ui/views_ui.admin.theme.css
+ */
+.views-displays, .views-preview-wrapper {
+  border: 1px solid rgba(34,36,38,.1);
+}
+.views-ui-display-tab-bucket .views-display-setting:nth-of-type(even) {
+  background-color: rgba(0,0,50,.02);
+}
+.views-display-top {
+  background: #F9FAFB;
+  border-bottom: 1px solid rgba(34,36,38,.1);
+}
+.form-edit .form-actions {
+  background-color: #F9FAFB;
+  border-right: 1px solid rgba(34,36,38,.1);
+  border-bottom: 1px solid rgba(34,36,38,.1);
+  border-left: 1px solid rgba(34,36,38,.1);
+}
+.view-preview-form__title {
+  background-color: #F9FAFB;
+  border-bottom: 1px solid rgba(34,36,38,.1);
+}
+.views-displays .tabs.secondary a {
+  border-radius: 2px;
+  padding: 4px 8px;
+}
+.views-displays .tabs li.is-active a, .views-displays .tabs li.is-active a.is-active {
+  background: #E0E1E2;
+  color: rgba(0,0,0,.6);
+}
+.views-displays .tabs li a:hover {
+  background-color: #CACBCD;
+  color: rgba(0,0,0,.8);
+}
+.views-display-columns {
+  /*display: flex;*/
+}

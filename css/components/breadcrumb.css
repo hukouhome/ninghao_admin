@@ -1,0 +1,14 @@
+/**
+ * seven/css/components/breadcrumb.css
+ */
+ .breadcrumb {
+   padding: 24px 0;
+   color: #bbbbbb;
+ }
+.breadcrumb a {
+  color: #929292;
+}
+.breadcrumb li:before {
+  margin-left: 4px;
+  margin-right: 4px;
+}

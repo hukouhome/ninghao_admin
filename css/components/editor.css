@@ -1,0 +1,57 @@
+/**
+ * editor
+ */
+.ninghao .cke_chrome {
+  box-shadow: none;
+  border: 1px solid rgba(34,36,38,.1);
+}
+.ninghao .cke_top {
+  background-image: none;
+  background: #F9FAFB;
+  border-bottom: 1px solid rgba(34,36,38,.1);
+}
+.ninghao .cke_toolgroup {
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  background-image: none;
+  background: none;
+}
+.ninghao .cke_bottom {
+  border-top: 1px solid rgba(34,36,38,.1);
+  box-shadow: none;
+  background: #F9FAFB;
+  background-image: none;
+}
+.ninghao .cke_ltr .cke_button:first-child,
+.ninghao .cke_rtl .cke_button:last-child {
+  border-radius: 3px;
+}
+.ninghao .cke_ltr .cke_button:last-child,
+.ninghao .cke_rtl .cke_button:first-child {
+  border-radius: 3px;
+}
+.ninghao a.cke_button_on:hover,
+.ninghao a.cke_button_on:focus,
+.ninghao a.cke_button_on:active {
+  box-shadow: none;
+}
+.ninghao a.cke_button_on {
+  background: #ddd;
+  background-image: none;
+  box-shadow: none;
+}
+.ninghao .cke_combo_off a.cke_combo_button:active,
+.ninghao .cke_combo_on a.cke_combo_button {
+  background: #ddd;
+  background-image: none;
+  box-shadow: none;
+}
+
+.ninghao .cke_combo_on a.cke_combo_button:hover,
+.ninghao .cke_combo_on a.cke_combo_button:focus,
+.ninghao .cke_combo_on a.cke_combo_button:active {
+  background: #ddd;
+  background-image: none;
+  box-shadow: none;
+}

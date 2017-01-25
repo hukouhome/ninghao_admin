@@ -1,0 +1,21 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/main.css: {}
+    component:
+      css/components/admin-list.css: {}
+      css/components/block.css: {}
+      css/components/breadcrumb.css: {}
+      css/components/content-header.css: {}
+      css/components/editor.css: {}
+      css/components/entity-meta.css: {}
+      css/components/field-ui.css: {}
+      css/components/filter.admin.css: {}
+      css/components/form.css: {}
+      css/components/modules-page.css: {}
+      css/components/panel.css: {}
+      css/components/tabs.css: {}
+      css/components/vertical-tabs.css: {}
+      css/components/views_ui.admin.theme.css: {}
+      css/components/views-ui.css: {}

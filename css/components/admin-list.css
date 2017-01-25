@@ -1,0 +1,10 @@
+/**
+ * seven/css/components/admin-list.css
+ */
+.admin-list li {
+  border-color: rgba(34,36,38,.1);
+}
+.admin-list li a {
+  background: none;
+  padding-left: 8px;
+}

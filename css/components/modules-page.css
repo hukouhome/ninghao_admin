@@ -1,0 +1,13 @@
+/**
+ * seven/css/components/modules-page.css
+ */
+.system-modules tr.even,
+.system-modules tr.odd,
+.locale-translation-status-form tr.even,
+.locale-translation-status-form tr.odd {
+  background-color: #F9FAFB;
+}
+.system-modules table,
+.locale-translation-status-form table {
+  width: 100%;
+}

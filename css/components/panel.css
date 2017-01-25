@@ -1,0 +1,13 @@
+/**
+ * seven/css/components/panel.css
+ */
+ .panel {
+   background: #F9FAFB;
+   border: 1px solid rgba(34,36,38,.1);
+ }
+ .panel__title {
+   font-size: 1em;
+   text-transform: uppercase;
+   margin: 0;
+   padding-bottom: 9px;
+ }

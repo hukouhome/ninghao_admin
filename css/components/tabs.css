@@ -1,0 +1,27 @@
+/**
+ * seven/css/components/tabs.css
+ */
+.is-horizontal .tabs.secondary .tabs__tab {
+  border-bottom-width: 1px;
+}
+.ninghao .tabs__tab {
+  border: 1px solid transparent;
+}
+.ninghao .is-open .tabs__tab.is-active {
+  border-bottom: 1px solid transparent;
+}
+.tabs.secondary .is-active a {
+font-weight: bold;
+}
+.ninghao .is-horizontal .tabs__tab + .tabs__tab,
+[dir="rtl"] .ninghao .is-horizontal .tabs__tab + .tabs__tab,
+.adminimal .is-horizontal .tabs.primary .tabs__tab:first-child,
+[dir="rtl"] .ninghao .is-horizontal .tabs.primary .tabs__tab:first-child,
+.adminimal .is-horizontal .tabs.primary .tabs__tab:last-child,
+[dir="rtl"] .ninghao .is-horizontal .tabs.primary .tabs__tab:last-child,
+.ninghao .is-horizontal .tabs__tab.is-active,
+.ninghao .is-horizontal .tabs.primary .tabs__tab.is-active,
+[dir="rtl"] .ninghao .is-horizontal .tabs.primary .tabs__tab.is-active {
+  border: none;
+  border-top: 1px solid transparent;
+}

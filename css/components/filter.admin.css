@@ -1,0 +1,7 @@
+/*
+ * filter.admin.css
+ */
+.filter-wrapper {
+  border: 1px solid rgba(34,36,38,.1);
+  border-top: none;
+}

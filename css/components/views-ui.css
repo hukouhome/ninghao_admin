@@ -1,0 +1,15 @@
+/**
+ * seven/css/components/views-ui.css
+ */
+.views-ui-display-tab-bucket h3 {
+  padding-bottom: 12px;
+}
+.views-displays ul.secondary li a, .views-displays ul.secondary li.is-active a, .views-displays ul.secondary li.is-active a.is-active {
+  padding: 4px 8px;
+}
+.views-admin .icon.add {
+  background-position: center 3px;
+}
+.views-displays .tabs a:hover > .icon.add {
+  background-position: center 3px;
+}
