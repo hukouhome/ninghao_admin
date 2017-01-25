@@ -36,3 +36,7 @@
 .views-display-columns {
   /*display: flex;*/
 }
+.views-ui-dialog .views-override {
+  background: #fff;
+  border-bottom: none;
+}

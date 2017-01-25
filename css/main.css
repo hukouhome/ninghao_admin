@@ -6,4 +6,12 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
+  outline: none;
+}
+.ui-dialog {
+  outline: none;
+}
+.ui-dialog select.dropdown {
+  height: auto;
+  padding: 1px 1.571em 1px 0.5em;
 }
