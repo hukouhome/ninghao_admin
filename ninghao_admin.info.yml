@@ -27,6 +27,7 @@ libraries-override:
       component:
         css/components/buttons.css: false
         css/components/tables.css: false
+        css/components/dropbutton.component.css: false
   classy/base:
     css:
       component:
