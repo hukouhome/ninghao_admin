@@ -23,3 +23,9 @@ textarea.form-textarea:focus {
 .field--name-title .ui.input {
   width: 100%;
 }
+fieldset:not(.fieldgroup) {
+  background-color: #F9FAFB;
+}
+fieldset {
+  border: 1px solid rgba(34,36,38,.1);
+}

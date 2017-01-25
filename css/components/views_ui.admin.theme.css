@@ -40,3 +40,10 @@
   background: #fff;
   border-bottom: none;
 }
+.views-admin .icon {
+  width: auto;
+  height: auto;
+}
+.views-admin .icon, .views-admin .icon-text {
+  background-image: none;
+}
