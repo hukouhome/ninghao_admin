@@ -19,7 +19,8 @@
 }
 .entity-meta details[open] {
   background-image: none;
+  background: #F9FAFB;
 }
 .entity-meta__header, .entity-meta details {
-  background-color: #F9FAFB;
+  background-color: #fff;
 }
