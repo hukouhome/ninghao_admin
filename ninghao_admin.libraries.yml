@@ -20,3 +20,4 @@ global-styling:
       css/components/vertical-tabs.css: {}
       css/components/views_ui.admin.theme.css: {}
       css/components/views-ui.css: {}
+      css/components/jquery-ui.theme.css: {}

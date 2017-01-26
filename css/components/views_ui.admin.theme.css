@@ -24,14 +24,15 @@
 .views-displays .tabs.secondary a {
   border-radius: 2px;
   padding: 4px 8px;
+  border: 1px solid #2185d0;
 }
 .views-displays .tabs li.is-active a, .views-displays .tabs li.is-active a.is-active {
   background: #E0E1E2;
   color: rgba(0,0,0,.6);
 }
 .views-displays .tabs li a:hover {
-  background-color: #CACBCD;
-  color: rgba(0,0,0,.8);
+  background-color: #fff;
+  color: #2185d0;
 }
 .views-display-columns {
   /*display: flex;*/
@@ -46,4 +47,40 @@
 }
 .views-admin .icon, .views-admin .icon-text {
   background-image: none;
+}
+.ninghao .views-displays .tabs .action-list {
+  z-index: 250;
+  box-shadow: 0 2px 3px 0 rgba(34,36,38,.15);
+  border-radius: 5px;
+  transition: none;
+  background-color: #fff;
+}
+.ninghao .views-displays .secondary .action-list  li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ninghao .views-displays .secondary .action-list  li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ninghao .views-displays .tabs .action-list  li {
+  background-color: #fff;
+  border-color: ;
+  padding: 4px 8px;
+  color: rgba(0,0,0,.87);
+  padding: 8px 16px!important;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.ninghao .views-displays .tabs .action-list li:hover {
+  background: rgba(0,0,0,.05);
+  color: rgba(0,0,0,.95);
+}
+.ninghao .views-displays .secondary .action-list input.form-submit {
+  color: rgba(0,0,0,.87);
+}
+@media screen and (min-width: 45em) {
+  .views-display-columns {
+    display: flex;
+  }
 }

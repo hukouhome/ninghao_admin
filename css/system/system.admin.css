@@ -37,3 +37,18 @@
 [dir="rtl"] .theme-selector .card li:first-child {
   padding: 0 0 0 0.7em;
 }
+.ninghao .system-status-report__status-title {
+  padding: 16px;
+  padding-right: 32px;
+  font-weight: bold;
+  text-align: right;
+}
+.ninghao .system-status-report__entry {
+  border-top: 1px solid rgba(181, 181, 181, 0.1);
+}
+.ninghao .system-status-report__entry:last-child {
+  border-bottom: 1px solid rgba(181, 181, 181, 0.1);
+}
+.ninghao .system-status-report__entry td {
+  padding: 16px;
+}
