@@ -13,6 +13,9 @@ libraries-extend:
     - ninghao_ui/ui.draggable
 
 libraries-override:
+  commerce_checkout/admin:
+    js:
+      js/commerce_checkout.admin.js: js/commerce_checkout.admin.js
   core/drupal.autocomplete:
     js:
       misc/autocomplete.js: false
