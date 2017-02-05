@@ -16,3 +16,9 @@ a:focus {
   height: auto;
   padding: 1px 1.571em 1px 0.5em;
 }
+.file .field__item img {
+  width: 100%;
+}
+.draggable .ui.input {
+  width: 100%;
+}
