@@ -1024,8 +1024,15 @@
       rowSettings.source = rowSettings.target;
     }
 
-    var targetClass = '.' + rowSettings.target + ' select';
-    console.log(targetClass);
+    // Because I have changed select element style. add a wrapper on it,
+    // so, if weight element is select, I have to change the targetClass value.
+    // @ninghao.net
+    if ($('.' + rowSettings.target).find('select').length) {
+      var targetClass = '.' + rowSettings.target + ' select';
+    } else {
+      var targetClass = '.' + rowSettings.target;
+    }
+    // console.log(targetClass);
     var targetElement = $changedRow.find(targetClass).get(0);
 
     // Check if a target element exists in this row.
